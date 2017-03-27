@@ -8,7 +8,6 @@ int WINAPI WinMain(HINSTANCE hThisInstance, HINSTANCE PrevInstance,
 	LPSTR lpszArgument, int nFunsterStil)
 {
 	int Freq = 1000;
-
 	int Duration = 100;
 	HWND hWin;
 	hWin = FindWindow("Shell_TrayWnd", NULL);
